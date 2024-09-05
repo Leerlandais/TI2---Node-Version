@@ -1,0 +1,79 @@
+# IDE and Editor Files #
+########################
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Configuration Files #
+#######################
+config.php
+
+# Logs and Debug Files #
+########################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+/var/log/*.log
+
+# Dependency Directories #
+##########################
+/node_modules/
+/vendor/
+/.pnp/
+/.pnp.js
+
+# Environment Variables #
+#########################
+.env
+.env.*
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Build and Output #
+####################
+/build/
+/dist/
+/public/build/
+/public/uploads/
+/.next/
+/out/
+/cache/
+/var/cache/*
+/tmp/
+/temp/
+
+# Coverage and Testing #
+########################
+/coverage/
+/nyc_output/
+/.jest/
+/.jest-test-results.json
+/tests/bootstrap.php.cache
+.phpunit.result.cache
+.php_cs.cache
+
+# REPL History #
+################
+/node_repl_history
+
+# TypeScript #
+##############
+*.tsbuildinfo
+
+# Optional npm/yarn/pnpm cache #
+###############################
+.npm/
+.yarn/
+
+# Symfony Specific Ignores #
+############################
+/bin/
+/public/bundles/
+                
